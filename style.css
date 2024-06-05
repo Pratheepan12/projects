@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:segoe UI;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style-type: none;
+}
+.firstsection h1{
+    font-family:segoe UI;
+    font-size:80px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 50px;
+}
+
+.main-div
+{
+    display: flex;
+    margin-left: 90px;
+    font-size: 10;
+}
+
+.subdiv-1,.subdiv-2,.subdiv-3,.subdiv-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subdiv-1 ul,.subdiv-2 ul,.subdiv-3 ul,.subdiv-4 ul
+{
+    list-style-type: none;
+    padding-left: 10px;
+    font-family:segoe UI;
+}
+
+.subdiv-2 img,.subdiv-3 img,.subdiv-4 img
+{
+    width: 60px;
+    height: 60px;
+}
+
+.menu-link1,.menu-link2,.menu-link3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu-link1 ul,.menu-link2 ul,.menu-link3 ul
+{
+    list-style-type: none;
+}
+.center-img1 img
+{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 50px;
+}
